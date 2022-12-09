@@ -1,0 +1,17 @@
+{
+  "name": "whatsapp-sender",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wppconnect-team/wppconnect": "^1.19.1",
+    "csvtojson": "^2.0.10"
+  }
+}
