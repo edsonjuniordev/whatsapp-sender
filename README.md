@@ -40,7 +40,7 @@ npm i
 
 Create a csv file with name and phone that you want send the messages:
 
-```json
+```
 name,phone
 example,+55 99 9 9999-9999
 ```
