@@ -10,7 +10,7 @@ export const dataProcessor = Transform({
     const phoneWithOutSpecialCharacters = removeSpecialCharacters(phone);
 
     if (!verifyIfHaveBrazilDDD(phoneWithOutSpecialCharacters))
-      return callback(null, JSON.parse({ name, phone: '55' + phone }));
+      return callback(null, JSON.stringfy({ name, phone: '55' + phone }));
 
     return callback(null, JSON.stringify({ name, phone }));
   },
